@@ -1,0 +1,117 @@
+Unique values and their occurrences in Socket_1 column:
+Socket_1
+AC Steckdose Typ 2                                                                  30647
+DC Kupplung Combo                                                                    5785
+AC Kupplung Typ 2                                                                    3208
+AC Steckdose Typ 2, AC Schuko                                                        2432
+DC Kupplung Combo, DC CHAdeMO                                                        1532
+AC Steckdose Typ 2, AC Kupplung Typ 2                                                 935
+AC Steckdose Typ 2, DC Kupplung Combo, DC CHAdeMO                                      67
+AC Kupplung Typ 2, AC Schuko                                                           67
+AC Kupplung Typ 2, DC Kupplung Combo                                                   44
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC Schuko                                       23
+AC Steckdose Typ 2, DC Kupplung Combo                                                  22
+AC Steckdose Typ 2, AC CEE 5 polig                                                     14
+AC Steckdose Typ 2, AC CEE 3 polig                                                     11
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo                                9
+AC Kupplung Typ 2, DC CHAdeMO                                                           7
+AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO                                        7
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC CEE 5 polig                                   5
+AC Kupplung Typ 2, AC CEE 5 polig                                                       5
+AC Steckdose Typ 2, DC CHAdeMO                                                          3
+AC Schuko                                                                               3
+AC Steckdose Typ 2, AC Schuko, AC CEE 5 polig                                           3
+DC Kupplung Combo, AC Schuko                                                            2
+AC Kupplung Typ 2, AC CEE 3 polig                                                       2
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO                    2
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC CHAdeMO                                       2
+AC Steckdose Typ 2, CEE-Stecker                                                         1
+DC Kupplung Combo, AC CEE 5 polig                                                       1
+DC Kupplung Combo, AC CEE 3 polig                                                       1
+AC CEE 5 polig                                                                          1
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC Schuko, AC CEE 3 polig; AC CEE 5 polig        1
+AC Kupplung Typ 2, Adapter Typ1  Auto auf Typ2 Fahrzeugkupplung                         1
+DC Kupplung Combo, DC CHAdeMO, DC Kupplung Tesla Typ 2                                  1
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC Schuko, DC CHAdeMO                            1
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo, AC Schuko                     1
+AC Schuko, AC CEE 5 polig                                                               1
+AC Steckdose Typ 2, DC Kupplung Combo, AC Schuko                                        1
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC Schuko, AC CEE 5 polig                        1
+AC Steckdose Typ 2, AC Schuko, DC CHAdeMO                                               1
+AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO, AC CEE 5 polig                        1
+Name: count, dtype: int64
+
+Unique values and their occurrences in Socket_2 column:
+Socket_2
+AC Steckdose Typ 2                                                                  26135
+DC Kupplung Combo                                                                    4000
+AC Steckdose Typ 2, AC Schuko                                                        2134
+AC Kupplung Typ 2                                                                    1639
+DC Kupplung Combo, DC CHAdeMO                                                        1328
+AC Steckdose Typ 2, AC Kupplung Typ 2                                                 437
+AC Kupplung Typ 2, DC Kupplung Combo                                                  209
+AC Kupplung Typ 2, DC CHAdeMO                                                          79
+AC Steckdose Typ 2, DC Kupplung Combo                                                  47
+AC Schuko                                                                              47
+AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO                                       17
+AC Steckdose Typ 2, AC CEE 5 polig                                                     17
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC CHAdeMO                                      17
+AC Steckdose Typ 2, AC CEE 3 polig                                                     11
+AC Kupplung Typ 2, AC Schuko                                                           11
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo                                8
+DC CHAdeMO                                                                              7
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC Schuko                                        6
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC CEE 5 polig                                   5
+AC Kupplung Typ 2, AC CEE 3 polig                                                       5
+AC Steckdose Typ 2, DC CHAdeMO                                                          5
+AC Steckdose Typ 2, DC Kupplung Combo, AC Schuko                                        3
+AC Kupplung Typ 2, AC CEE 5 polig                                                       3
+AC CEE 5 polig                                                                          3
+AC Steckdose Typ 2, DC Kupplung Combo, DC CHAdeMO                                       2
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC Schuko, AC CEE 3 polig; AC CEE 5 polig        1
+AC Schuko, AC CEE 5 polig                                                               1
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC / CEE                                         1
+DC Kupplung Combo, AC CEE 5 polig                                                       1
+Name: count, dtype: int64
+
+Unique values and their occurrences in Socket_3 column:
+Socket_3
+AC Steckdose Typ 2                                                      1697
+AC Kupplung Typ 2                                                        308
+AC Kupplung Typ 2, DC CHAdeMO                                            203
+DC Kupplung Combo                                                        176
+AC Steckdose Typ 2, AC Kupplung Typ 2                                     97
+AC Steckdose Typ 2, AC Schuko                                             44
+DC Kupplung Combo, DC CHAdeMO                                             37
+AC Kupplung Typ 2, DC Kupplung Combo                                      28
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC CHAdeMO                         22
+AC Schuko                                                                 22
+AC Steckdose Typ 2, DC Kupplung Combo                                      7
+DC CHAdeMO                                                                 6
+AC Steckdose Typ 2, AC CEE 3 polig                                         3
+AC Steckdose Typ 2, AC CEE 5 polig                                         2
+AC Kupplung Typ 2, AC CEE 5 polig                                          2
+AC Steckdose Typ 2, DC CHAdeMO                                             1
+AC Kupplung Typ 2, AC Schuko                                               1
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC Schuko                           1
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO       1
+Name: count, dtype: int64
+
+Unique values and their occurrences in Socket_4 column:
+Socket_4
+AC Steckdose Typ 2                                                  1073
+AC Kupplung Typ 2                                                    195
+DC Kupplung Combo                                                     52
+AC Schuko                                                             39
+AC Steckdose Typ 2, AC Kupplung Typ 2                                 32
+AC Steckdose Typ 2, AC Schuko                                         30
+DC Kupplung Combo, DC CHAdeMO                                         19
+AC Kupplung Typ 2, AC CEE 5 polig                                      2
+AC Steckdose Typ 2, DC Kupplung Combo                                  2
+DC Kupplung Combo, DC CHAdeMO, Tesla                                   1
+DC Kupplung Combo, Tesla                                               1
+AC Steckdose Typ 2, AC Kupplung Typ 2, AC Schuko, AC CEE 3 polig       1
+DC Kupplung Combo, Typ 2 / Tesla                                       1
+AC Steckdose Typ 2, AC CEE 5 polig                                     1
+Name: count, dtype: int64
+

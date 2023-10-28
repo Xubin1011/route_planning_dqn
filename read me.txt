@@ -1,0 +1,63 @@
+distance_haversine.py
+#Calculate haversine distance between two points
+
+bounding_box.py
+# Description:Calculate the bounding box formed by source and target coordinates.
+
+parking_data.py
+# Description: Get the latitude, longitude, altitude of parking lots within the bbox range, and output the csv table
+#input： latitude and longitude of two pois
+#output: parking_data.csv: include the latitude, longitude and elevation of all locations that has benn used.
+# parking_bbox.csv: include the latitude, longitude and elevation of locations within bbox
+# parking_bbox_tem.csv:Do not modify, include the latitude and longitude of the new location. It will be automatically deleted after all altitudes are obtained.
+#data sources: openstreetmap, overpass API, openrouteservice API
+
+cs_data.py
+
+# Description: Add altitude in Ladesaeulenregister-processed.xlsx
+# Read the first rows_num rows of the file,
+# obtain the altitude through the openrouteservice api for each location,
+# store the location with altitude in cs_data.csv
+# delete the first rows_num rows of the original file
+# input : Ladesaeulenregister-processed.xlsx
+# output : cs_data.csv
+# data sources: Bundesnetzagentur, openrouteservice API
+
+cs_data_clean.py
+# Description: Clean data, remove duplicate locations, fix wrong latitude and longitude format, add altitude, extract the needed data
+# (latitude, longitude, max_charging_power) from  cs_data.csv
+# (Die Liste beinhaltet die Ladeeinrichtungen aller Betreiberinnen und Betreiber,
+# die das Anzeigeverfahren der Bundesnetzagentur vollständig abgeschlossen und einer Veröffentlichung  im Internet zugestimmt haben.)
+#input: cs_data.csv: latitude, longitude, power, altitude and unneeded info in Germany.
+#output: cs_combo.csv: charging stations with combo type in Germany. latitude, longitude, altitude, power.
+# cs_type2_combo.csv:charging stations with combo and type 2 in Germany. latitude, longitude, altitude, power.
+
+cs_extract_bbox.py
+# Description: Extract latitude and longitude within the specified bounding box range
+# from cs_combo.csv or cs_type2_combo.csv
+#input: cs_combo.csv or cs_type2_combo.csv
+#output: cs_combo_bbox.csv or cs_type2_combo_bbox.csv. The charging stations within bbox. 
+
+
+consume_validate.py
+# Description:Randomly select 50 POIs within a bounding box as the sources, 
+# and 50 points as the targets. Then calculate the average speed and average consumption of these 50 sections, 
+# and compare with the average consumption obtained from the here API
+
+consume_visualization.py
+# Plotting with matplotlib
+
+nearest_location.py
+#Find the nearest locations to the current position in a table, using the haversine distance 
+
+consumption_duration.py
+#Calculate consumption , get duration between two POIs （in kWh）
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 1000
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 420
+Max Retries: 2
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 1000
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 615
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 614
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 599
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 585
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 315
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 235
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 1000
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 1000
+Max Retries: 2
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 120 s
+Unexpected response format. Could not find 'geometry' key in the response.
+Response content: {"code":500,"message":"Server error"}
+
+wait 180 s
+failed
+Done, partial altitudes have been obtained
+File Path: Ladesaeulenregister-processed.xlsx
+Rows Num: 1000
+Max Retries: 2
+All altitudes have been obtained
+Deleted the file.

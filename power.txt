@@ -1,0 +1,45 @@
+Unique values and their occurrences in Rated_output column:
+Rated_output
+300.0    1652
+150.0    1566
+39.6      914
+93.0      656
+350.0     517
+         ... 
+282.0       1
+105.0       1
+15.0        1
+154.0       1
+170.0       1
+Name: count, Length: 145, dtype: int64
+
+Unique values and their occurrences in Max_socket_power column:
+Max_socket_power
+50     2259
+150    1775
+300    1618
+22     1210
+350     467
+       ... 
+93        1
+65        1
+86        1
+155       1
+220       1
+Name: count, Length: 77, dtype: int64
+
+Unique values and their occurrences in Max_power column:
+Max_power
+50     2254
+150    1776
+300    1602
+22     1216
+350     468
+       ... 
+15        1
+65        1
+33        1
+245       1
+220       1
+Name: count, Length: 78, dtype: int64
+

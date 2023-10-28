@@ -1,0 +1,55 @@
+Unique values and their occurrences in Socket_1 column:
+Socket_1
+0                                                                       37375
+DC Kupplung Combo                                                        5785
+DC Kupplung Combo, DC CHAdeMO                                            1532
+AC Steckdose Typ 2, DC Kupplung Combo, DC CHAdeMO                          67
+AC Kupplung Typ 2, DC Kupplung Combo                                       44
+AC Steckdose Typ 2, DC Kupplung Combo                                      22
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo                    9
+AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO                            7
+DC Kupplung Combo, AC Schuko                                                2
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO        2
+AC Steckdose Typ 2, DC Kupplung Combo, AC Schuko                            1
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo, AC Schuko         1
+DC Kupplung Combo, DC CHAdeMO, DC Kupplung Tesla Typ 2                      1
+DC Kupplung Combo, AC CEE 5 polig                                           1
+DC Kupplung Combo, AC CEE 3 polig                                           1
+AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO, AC CEE 5 polig            1
+Name: count, dtype: int64
+
+Unique values and their occurrences in Socket_2 column:
+Socket_2
+0                                                           30564
+DC Kupplung Combo                                            4000
+DC Kupplung Combo, DC CHAdeMO                                1328
+AC Kupplung Typ 2, DC Kupplung Combo                          209
+AC Steckdose Typ 2, DC Kupplung Combo                          47
+AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO               17
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo        8
+AC Steckdose Typ 2, DC Kupplung Combo, AC Schuko                3
+AC Steckdose Typ 2, DC Kupplung Combo, DC CHAdeMO               2
+DC Kupplung Combo, AC CEE 5 polig                               1
+Name: count, dtype: int64
+
+Unique values and their occurrences in Socket_3 column:
+Socket_3
+0                                                                       2409
+DC Kupplung Combo                                                        176
+DC Kupplung Combo, DC CHAdeMO                                             37
+AC Kupplung Typ 2, DC Kupplung Combo                                      28
+AC Steckdose Typ 2, DC Kupplung Combo                                      7
+AC Steckdose Typ 2, AC Kupplung Typ 2, DC Kupplung Combo, DC CHAdeMO       1
+Name: count, dtype: int64
+
+Unique values and their occurrences in Socket_4 column:
+Socket_4
+0                                        1373
+DC Kupplung Combo                          52
+DC Kupplung Combo, DC CHAdeMO              19
+AC Steckdose Typ 2, DC Kupplung Combo       2
+DC Kupplung Combo, DC CHAdeMO, Tesla        1
+DC Kupplung Combo, Tesla                    1
+DC Kupplung Combo, Typ 2 / Tesla            1
+Name: count, dtype: int64
+
