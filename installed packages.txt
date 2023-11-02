@@ -1,0 +1,53 @@
+创建环境 conda create -n name python
+删除环境 conda remove -n name --all
+激活/进入环境 conda activate name
+退出环境 conda deactivate
+查看已有环境 conda info -e
+运行python解释器  python
+退出python解释器 exit（）
+查看已经安装的包   conda list
+conda uninstall XXX
+更改python版本 conda install python
+ctrl+Z+ enter 退出当前操作
+conda search gymnasium --channel conda-forge 显示可以在platform上使用的版本
+
+
+Linux查看显卡信息：
+
+lspci | grep -i vga
+使用nvidia GPU可以：
+
+lspci | grep -i nvidia
+
+
+gymnasium
+conda install gym-classic_control
+conda install gymnasium-classic_control
+
+linux pip install gymnasium[classic-control]
+
+pandas
+conda install pandas
+
+numpy
+conda install numpy
+
+requests
+conda install requests
+
+folium
+conda install folium
+
+matplotlib
+conda install matplotlib
+
+torch
+conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
+
+
+
+
+conda install gymnasium[classic-control] pandas numpy requests folium matplotlib ipython
+
+
+
