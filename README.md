@@ -1,10 +1,7 @@
-# route_planning_dqn
-Constrained Route Planning of Electric Vehicles  with Recharging Based on Deep Reinforcement Learning
+Over the past few years, the increasing concern about climate change and governmental initiatives have led to a rapid rise in the number of electric vehicles. However, the limited driving range and sparse charging infrastructure can pose constraints on the widespread deployment of electric vehicles. Particularly during long-distance journeys, making incorrect charging decisions can significantly impact travel time, and in the worst case, result in an inability to reach the destination due to insufficient energy.
 
-When using EVs for long-distance travel, drivers must make decisions based on available information of charging stations and the current State of Charge (SoC) to select an appropriate charging station. 
-Nevertheless, both detouring to a charging station and the time required for recharging will extend the travel duration. Additionally, making an incorrect choice can potentially lead to being stranded due to insufficient energy supply. 
-Therefore, the judicious selection of the optimal charging opportunities becomes important. 
-Furthermore, during extended journeys, drivers must also ensure they obtain sufficient rest to guarantee safe driving, which is a crucial aspect addressed in this project.
+The existed route planning solutions of electric vehicles have primarily focused on minimizing travel time, distance, and monetary expenses through charging decisions. These approaches often neglect the rest requirements of drivers during long trips and pay little attention to the success rate of generating feasible routes during deployment. In response to these challenges, a two-layer Route Planning Model has been developed based on reinforcement learning to approach an optimal solution.
 
-In this project, we propose a charging decision model for electric vehicles that can be applied to long-distance travel. 
-The goal is to make charging decisions and rest decisions that minimize travel time without violating any constraints.
+The first layer of the model involves the training phase, introducing a reward method that balances driving time, charging time, and rest time to maximize the reward. In the second layer, the trained Q-Network is deployed to evaluate feasible actions and, in combination with a Take Steps Back Method, select actions that do not violate constraints. These two layers are distinct modules.
+
+The experiment shows that the model's effectiveness in addressing electric vehicle route planning problems with multiple constraints. Furthermore, the trained Q-Network can be applied to other maps without retraining. And when combined with the Take Steps Back Method in the deployment phase, the Success Rate is improved.
